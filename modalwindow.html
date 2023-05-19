@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles(3).css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="global-header section">
+      <div class="container global-container">
+        <div class="logo-container">
+          <a href="index.html" class="home-button"
+            ><span class="button">Web</span>Studio</a
+          >
+        </div>
+        <div class="super-nav-class">
+          <nav class="main-navigation">
+            <a href="./index.html" class="active-studio">Studio</a>
+            <a href="portfolio.html" class="active">Portfolio</a>
+            <a href="Contacts" class="active">Contacts</a>
+          </nav>
+          <ul class="contact">
+            <li>
+              <a href="info@devstudio.com" class="mail"
+                ><svg>
+                  <use
+                    href="./icons/symbol-defs.svg#icon-envelope-hover"
+                  ></use></svg
+                >info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+12127724150" class="phone-number"
+                ><svg>
+                  <use
+                    href="./icons/symbol-defs.svg#icon-smartphone"
+                  ></use></svg
+                >+1 212-772-4150</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-title-backround">
+        <section class="first-section section">
+          <div class="container">
+            <h1>
+              EFFECTIVE SOLUTIONS FOR <br />
+              YOUR BUSINESS
+            </h1>
+            <button type="button" data-modal-open class="request-button">
+              Request our service
+            </button>
+          </div>
+        </section>
+      </div>
+
+      <section class="second-section section">
+        <div class="container second-section-flex">
+          <div>
+            <div class="second-section-items-container">
+              <svg width="70px" height="70px">
+                <use href="./icons/symbol-defs.svg#icon-antenna"></use>
+              </svg>
+            </div>
+            <p>ATTENTION TO DETAILS</p>
+            <span>
+              We go into all the details and processes <br />
+              of your business to develop a <br />
+              customized solution.
+            </span>
+          </div>
+          <div>
+            <div class="second-section-items-container">
+              <svg width="70px" height="70px">
+                <use href="./icons/symbol-defs.svg#icon-clock"></use>
+              </svg>
+            </div>
+            <p>PUNCTUALITY</p>
+            <span>
+              With us, you can feel safe and secure. <br />
+              An important principle of the company: <br />
+              respect your time and deadlines.
+            </span>
+          </div>
+          <div>
+            <div class="second-section-items-container">
+              <svg width="70px" height="70px">
+                <use href="./icons/symbol-defs.svg#icon-diagram"></use>
+              </svg>
+            </div>
+            <p>PLANNING</p>
+            <span>
+              You will be able to observe and <br />
+              participate in every phase of solution <br />
+              development and implementation.
+            </span>
+          </div>
+          <div>
+            <div class="second-section-items-container">
+              <svg width="70px" height="70px">
+                <use href="./icons/symbol-defs.svg#icon-astronaut"></use>
+              </svg>
+            </div>
+            <p>MODERN TECHNOLOGIES</p>
+            <span>
+              We use innovative tools to solve <br />
+              assigned tasks. It's time to simplify work <br />
+              processes.
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-content">
+        <button class="close-btn" data-modal-close>&times;</button>
+      </div>
+    </div>
+
+    <script src="./css/form.js" type="text/javascript"></script>
+  </body>
+</html>
