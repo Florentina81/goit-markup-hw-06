@@ -415,6 +415,7 @@ a {
   height: 120px;
   resize: none;
 }
+
 .form-group .textarea {
   padding: 0;
 }
@@ -428,9 +429,11 @@ a {
 .form-check .terms {
   padding: 0;
 }
+
 .form-check .term-cond {
   color: var(--third-clr);
 }
+
 .form-check > *:nth-child(1) {
   height: 15px;
   width: 16px;
@@ -445,6 +448,7 @@ a {
   border: none;
   color: var(--link-text-clr);
 }
+
 .btn-send {
   background: var(--third-clr);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -485,4 +489,29 @@ a {
 
 .form-group .input {
   padding-left: 40px;
+}
+
+.form-group input:focus,
+.form-group input:hover {
+  border: 1px solid var(--third-clr);
+}
+
+.textarea textarea:focus,
+.textarea textarea:hover {
+  border: 1px solid var(--third-clr);
+}
+
+input {
+  outline: none;
+}
+
+.form .input-icon:focus,
+.form .input-icon:hover {
+  color: var(--third-clr);
+}
+
+.form-group span::before,
+.form-group span::after {
+  content: "";
+  color: var(--third-clr);
 }
